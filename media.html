@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미디어 태그들</title>
+    <style>
+        li{
+            /* 이렇게 하면 li를 써도 inline으로 출력됨 */
+            display: inline;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- block level tag: 공간 남아도 엔터 
+    -ex) li, p -->
+    <!-- inline level tag: 걍 다 이어붙이기 -->
+
+
+    <!-- li: block level tag -->
+    <ul>
+        <li><img src="images/손흥민.png" alt=""></li>
+        <li><audio src="multi/bear.mp3" controls loop autoplay></audio></li>
+        <li><video src="multi/bear.mp4" controls width="100px"></video></li>
+    </ul>
+    <!-- p: block level tag: 공간 남아도 엔터  -->
+    <p>
+        <img src="images/손흥민.png" alt="">
+        <audio src="multi/bear.mp3" controls loop autoplay></audio>
+    </p>
+
+    <!-- media.html -->
+    <p>
+        <audio src="multi/bear.mp3" controls loop autoplay></audio>
+    </p>
+    <p>
+        <video src="multi/bear.mp4" controls width="100px"></video>
+    </p>
+</body>
+
+</html>
